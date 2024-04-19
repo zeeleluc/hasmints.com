@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="{{ app.request.locale }}">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="view-transition" content="same-origin" />
+        <title>{% block title %}HasMints{% endblock %}</title>
+
+        {% block stylesheets %}{% endblock %}
+        {% block javascripts %}
+            {% block importmap %}{{ importmap('app') }}{% endblock %}
+        {% endblock %}
+        <link rel="shortcut icon" type="image/svg+xml" href="{{ asset('favicon.svg') }}">
+    </head>
+
+    <body id="{% block body_id %}{% endblock %}">
+
+        {% block header %}
+            {% set _route = app.request.get('_route') %}
+            <header>
+                <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+                    <div class="container">
+                        <a class="navbar-brand" href="{{ path('homepage') }}">
+                            HasMints
+                        </a>
+                    </div>
+                </nav>
+            </header>
+        {% endblock %}
+
+        <div class="container body-container">
+            {% block body %}
+                <div class="row">
+                    <div id="main" class="col-sm-9">
+                        {{ include('default/_flash_messages.html.twig') }}
+
+                        {% block main %}{% endblock %}
+                    </div>
+
+                    <div id="sidebar" class="col-sm-3">
+                        {% block sidebar %}
+
+                        {% endblock %}
+                    </div>
+                </div>
+            {% endblock %}
+        </div>
+
+        {% block footer %}
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div id="footer-copyright" class="col-md-6">
+                            <p>&copy; {{ 'now'|date('Y') }} - HasMints - previously known as FamilyNFTs</p>
+                        </div>
+                        <div id="footer-resources" class="col-md-6">
+                            <p>
+                                <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/symfony" title="Symfony on X (formerly Twitter)">
+                                    <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a target="_blank" href="https://symfony.com/blog/" title="Symfony Blog">
+                                    <i class="fa-solid fa-rss" aria-hidden="true"></i>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        {% endblock %}
+
+
+    </body>
+</html>
