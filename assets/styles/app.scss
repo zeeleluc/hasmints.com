@@ -29,6 +29,11 @@
   --gray-800: #343a40;
   --gray-900: #212529;
   --black: #000;
+  --has-mints-blue: #C0DBEC;
+}
+
+body {
+    background-color: var(--has-mints-blue);
 }
 
 /* Basic styles
