@@ -1,5 +1,4 @@
 @import "variables";
-
 @import "../../vendor/twbs/bootstrap/scss/bootstrap.scss";
 @import "./bootswatch/bootswatch";
 
@@ -29,17 +28,34 @@
   --gray-800: #343a40;
   --gray-900: #212529;
   --black: #000;
-  --has-mints-blue: #C0DBEC;
+}
+
+@font-face {
+  font-family: 'BM Hanna';
+  src: url('../fonts/bm-hanna/bm-hanna-webfont.eot');
+  src: url('../fonts/bm-hanna/bm-hanna-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/bm-hanna/bm-hanna-webfont.woff2') format('woff2'),
+  url('../fonts/bm-hanna/bm-hanna-webfont.woff') format('woff'),
+  url('../fonts/bm-hanna/bm-hanna-webfont.ttf') format('truetype'),
+  url('../fonts/bm-hanna/bm-hanna-webfont.svg#bm_hanna_ttfregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
-    background-color: var(--has-mints-blue);
+  background: $has-mints-blue;
 }
 
 /* Basic styles
    ------------------------------------------------------------------------- */
 h1, .h1 {
+  font-family: 'BM Hanna', sans-serif;
   font-size: var(--font-heading);
+}
+
+h2, .h2 {
+  font-family: 'BM Hanna', sans-serif;
+  font-size: var(--font-subtitle);
 }
 
 h3, .h3 {
@@ -247,17 +263,34 @@ textarea {
 /* Page: 'Homepage'
    ------------------------------------------------------------------------- */
 body#homepage {
-  text-align: center;
+  background-image: url('../images/luc-flip.png'),
+                    url('../images/looney-luca-and-siblings.png');
+  background-color: $has-mints-blue;
+  background-repeat: no-repeat;
+  background-size: 300px, 250px;
+  background-position: top left, bottom right;
+  background-position-x: 10%, 90%;
 }
+
 body#homepage .page-header {
-  display: flex;
   justify-content: space-between;
   padding-bottom: 9.5px;
-  margin: 60px 0 30px;
+  margin: 0 0 30px;
+  text-align: center;
 }
 body#homepage .page-header h1 {
-  font-size: 32px;
-  margin: 0;
+  font-size: 82px;
+  margin: 40px 0;
+}
+body#homepage .page-header h2 {
+  font-size: 34px;
+  margin: 60px 0 10px 0;
+}
+body#homepage .page-header h1 span.has {
+  color: #032F4C;
+}
+body#homepage .page-header h1 span.mints {
+  color: #013D62;
 }
 body#homepage .page-header a.language-selector-dropdown-button {
   align-items: center;
