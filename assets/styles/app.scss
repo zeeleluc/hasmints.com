@@ -262,14 +262,36 @@ textarea {
 
 /* Page: 'Homepage'
    ------------------------------------------------------------------------- */
+
 body#homepage {
-  background-image: url('../images/luc-flip.png'),
+  background-image: url('../images/luc-left.png'),
+                    url('../images/diana-right.png'),
                     url('../images/looney-luca-and-siblings.png');
   background-color: $has-mints-blue;
   background-repeat: no-repeat;
-  background-size: 300px, 250px;
-  background-position: top left, bottom right;
-  background-position-x: 10%, 90%;
+  background-size: 200px, 200px, 175px;
+  background-position: top left, top right, bottom center;
+  background-position-y: 100px, 100px, 100%;
+}
+
+body#homepage .page-header h2 {
+  margin-top: 150px;
+}
+
+@include media-breakpoint-up(lg) {
+  body#homepage {
+    background-image: url('../images/luc-flip.png'),
+                      url('../images/diana-flip.png'),
+                      url('../images/looney-luca-and-siblings.png');
+    background-color: $has-mints-blue;
+    background-repeat: no-repeat;
+    background-size: 300px, 300px, 200px;
+    background-position: top left, top right, bottom center;
+    background-position-x: 10%, 90%, 50%;
+  }
+  body#homepage .page-header h2 {
+    margin-top: 100px;
+  }
 }
 
 body#homepage .page-header {
@@ -284,7 +306,6 @@ body#homepage .page-header h1 {
 }
 body#homepage .page-header h2 {
   font-size: 34px;
-  margin: 60px 0 10px 0;
 }
 body#homepage .page-header h1 span.has {
   color: #032F4C;
