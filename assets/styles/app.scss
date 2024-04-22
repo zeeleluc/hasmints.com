@@ -278,6 +278,20 @@ body#homepage .page-header h2 {
   margin-top: 150px;
 }
 
+
+@include media-breakpoint-up(md) {
+  body#homepage {
+    background-image: url('../images/luc-left.png'),
+    url('../images/diana-right.png'),
+    url('../images/looney-luca-and-siblings.png');
+    background-color: $has-mints-blue;
+    background-repeat: no-repeat;
+    background-size: 300px, 300px, 200px;
+    background-position: top left, top right, bottom center;
+    background-position-y: 100px, 100px, 100%;
+  }
+}
+
 @include media-breakpoint-up(lg) {
   body#homepage {
     background-image: url('../images/luc-flip.png'),
