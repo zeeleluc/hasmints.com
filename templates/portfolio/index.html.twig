@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ portfolio_name|title }} Has Mints!{% endblock %}
+
+{% block body_id 'portfolio' %}
+
+{% block body %}
+<div class="row">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>{{ portfolio_name|title }} Has Mints!</h1>
+                {% for social in portfolio.bioStub.socials %}
+                    <a
+                        class="badge badge-primary"
+                        target="_blank"
+                        href="{{ social.url }}"
+                        {% if social.description %}
+                            title="{{ social.description }}"
+                        {% endif %}
+                    >
+                        {{ social.name }}
+                    </a>
+                {% endfor %}
+                <p class="mt-3 pb-4">
+                    {{ portfolio.bioStub.bio }}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% for chain in portfolio.chains %}
+<div class="row row-portfolio row-portfolio-{{ chain.name }}">
+    {% include 'portfolio/_chain_partial.html.twig' with {chain, portfolio_name} %}
+</div>
+{% endfor %}
+{% endblock %}

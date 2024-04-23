@@ -21,14 +21,14 @@
                 <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
                     <div class="container">
                         <a class="navbar-brand" href="{{ path('homepage') }}">
-                            HasMints
+                            Home
                         </a>
                     </div>
                 </nav>
             </header>
         {% endblock %}
 
-        <div class="container body-container">
+        <div class="container-fluid body-container">
             {% block body %}
                 <div class="row">
                     <div id="main" class="col-sm-9">
@@ -55,8 +55,11 @@
                         </div>
                         <div id="footer-resources" class="col-md-6">
                             <p>
-                                <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/HasMints" title="Symfony on X (formerly Twitter)">
+                                <a rel="noopener noreferrer" target="_blank" href="https://twitter.com/HasMints" title="HasMints on X">
                                     <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a rel="noopener noreferrer" target="_blank" href="hhttps://discord.com/invite/a8jkJyrxrE" title="HasMints on Discord">
+                                    <i class="fa-brands fa-discord" aria-hidden="true"></i>
                                 </a>
                             </p>
                         </div>
@@ -64,7 +67,6 @@
                 </div>
             </footer>
         {% endblock %}
-
 
     </body>
 </html>

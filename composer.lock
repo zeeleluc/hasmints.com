@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9ba7a54bedf38b11045662d4236eeb2f",
+    "content-hash": "05a726b84e39760c536552ef3903903e",
     "packages": [
         {
             "name": "composer/semver",
@@ -963,6 +963,50 @@
                 "source": "https://github.com/doctrine/sql-formatter/tree/1.2.0"
             },
             "time": "2023-08-16T21:49:04+00:00"
+        },
+        {
+            "name": "jdrieghe/array-helpers",
+            "version": "v0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jdrieghe/array-helpers.git",
+                "reference": "c2ce0a40a160cfa861feb3af4cb7dc1699206b0e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jdrieghe/array-helpers/zipball/c2ce0a40a160cfa861feb3af4cb7dc1699206b0e",
+                "reference": "c2ce0a40a160cfa861feb3af4cb7dc1699206b0e",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/php-code-coverage": "^4.0",
+                "phpunit/phpunit": "^5.7"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/array-helpers.php"
+                ],
+                "psr-4": {
+                    "ArrayHelpers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonas Drieghe",
+                    "email": "jonasd@madewithlove.be"
+                }
+            ],
+            "description": "A collection of convenience methods to deal with arrays in php. Somewhat inspired by Laravel array helpers.",
+            "support": {
+                "issues": "https://github.com/jdrieghe/array-helpers/issues",
+                "source": "https://github.com/jdrieghe/array-helpers/tree/master"
+            },
+            "time": "2018-07-17T15:53:10+00:00"
         },
         {
             "name": "league/commonmark",

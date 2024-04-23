@@ -1,0 +1,133 @@
+parameters:
+    portfolio_luc:
+        bio: "Gm, I'm a passionate NFT creator. By profession, I'm a web developer, but mostly I'm working on my NFT project called HasMints. With HasMints, I can do everything I like: create NFT projects, bring NFT artists together through interviews, share web3/NFT knowledge with articles, and provide open-source code (PHP) related to web3/NFT development."
+        socials:
+            -   name: X
+                url: https://twitter.com/HasMints
+            -   name: Discord
+                url: https://discord.com/invite/a8jkJyrxrE
+        chains:
+            base:
+                -   name: BaseAliens
+                    image: BaseAliens.png
+                    description: Snatched from the Ethereum blockchain by a lightning-fast spaceship, these Humanoids evolved into efficient Base Aliens.
+                    markets:
+                        -   name: NiftyKit
+                            url: https://app.niftykit.com/collections/basealiens
+                            description: Currently minting for ETH 0.002
+                        -   name: OpenSea
+                            url: https://opensea.io/collection/realbasealiens
+                            icon: opensea.svg
+                        -   name: Website
+                            url: https://basealiens.familynfts.nl
+                            icon: website.svg
+            ethereum:
+                -   name: LoadingPunks
+                    sub: Sold out in 1 weekend!
+                    description: In this project, a meticulous analysis is conducted on all 10,000 CryptoPunks, examining each one pixel by pixel. Each skin or attribute is scrutinized separately, allowing the Punks to be loaded attribute by attribute, pixel by pixel. This innovative technique enables accurate calculation of the total pixel count, encompassing not only the pixels from the flat image but also the sum of all pixels of the skin and attributes.
+                    image: LoadingPunks.gif
+                    markets:
+                      -   name: Website
+                          url: https://loadingpunks.familynfts.nl
+                          icon: website.svg
+                      -   name: OpenSea
+                          url: https://opensea.io/collection/loadingpunks
+                          icon: opensea.svg
+                      -   name: OpenSea Pro
+                          url: https://pro.opensea.io/collection/loadingpunks
+                          icon: openseapro.svg
+                      -   name: LooksRare
+                          url: https://looksrare.org/collections/0x1bE440B9d0a6595290C201F640cCd815cbc55168
+                          icon: looksrare.webp
+                      -   name: Blur
+                          url: https://blur.io/collection/loadingpunks
+                          icon: blur.webp
+                -   name: PipingPunks
+                    description: Each PipingPunk is inspired by an original CryptoPunk. It uses all the pixels, from all attributes + the base combined, to form a system of pipes. The process begins with the rarest colors of the particular punk and progresses to the least rare color, black, to complete the system. The final pipe sometimes neatly reaches the side, but mostly it ends somewhere in the middle. Each PipingPunk NFT also comes with a GIF version that shows the pipes moving towards the end result.
+                    image: PipingPunks.png
+                    markets:
+                      -   name: OpenSea
+                          url: https://opensea.io/collection/pipingpunks/overview
+                          description: Free mint on OpenSea
+                          icon: opensea.svg
+                      -   name: Website
+                          url: https://pipingpunks.familynfts.nl
+                          icon: website.svg
+                -   name: ShapedPunks
+                    description: Abstract Punks. Unique characters called ShapedPunks are created to match each corresponding CryptoPunk, each with different shapes and matching colors from the CryptoPunk. I'm currently reviewing the outcome of each ShapedPunk, and the creation process is still ongoing. ShapedPunks can be arranged on a 2x2, 3x3, or 4x4 grid.
+                    image: ShapedPunks.png
+                    markets:
+                        -   name: OpenSea
+                            url: https://opensea.io/collection/shapedpunks
+                            icon: opensea.svg
+                            description: Art reveal soon, currently minting for ETH 0.0025
+                        -   name: Website
+                            url: https://shapedpunks.familynfts.nl
+                            icon: website.svg
+                        -   name: OpenSea Pro
+                            url: https://pro.opensea.io/collection/shapedpunks
+                            icon: openseapro.svg
+                -   name: OpepePunks
+                    description: Inspired by Jack Butcher's Opepen, each OpepePunk is designed to match the colors of the corresponding CryptoPunk. I'm not happy with the final result of some OpepePunks, so I plan to redo a few of them.
+                    image: OpepePunks.png
+                    markets:
+                      -   name: OpenSea
+                          url: https://opensea.io/collection/opepepunks
+                          description: Minted out!
+                          icon: opensea.svg
+                      -   name: OpenSea Pro
+                          url: https://pro.opensea.io/collection/opepepunks
+                          icon: openseapro.svg
+            xrpl:
+                -   name: RipplePunks
+                    description: One of the largest collection on the XRPL. Sold out within 2 weeks, and since then sharing 5% royalties to community.
+                    image: RipplePunks.png
+                    markets:
+                        -   name: xMart
+                            url: https://xmart.art/collections/hasmints/ripplepunks/browse-all
+                        -   name: xrp.cafe
+                            url: https://xrp.cafe/collection/ripplepunks
+                        -   name: onXRP
+                            url: https://nft.onxrp.com/collection/ripplepunks
+                        -   name: Website
+                            url: https://ripplepunks.com
+                            icon: website.svg
+                -   name: RipplePunks Rewind
+                    description: A free mint collection for holders of OG RipplePunks
+                    image: RipplePunksRewind.gif
+                    markets:
+                        -   name: xMart
+                            url: https://xmart.art/collections/hasmints/ripplepunksrewind/browse-all
+                            description: Minted out!
+                        -   name: xrp.cafe
+                            url: https://xrp.cafe/collection/ripplepunksrewind
+                        -   name: onXRP
+                            url: https://nft.onxrp.com/collection/ripplepunks-rewind
+                        -   name: Website
+                            url: https://ripplepunks.com
+                            icon: website.svg
+                -   name: RipplePunks Quartet
+                    description: A fun collection that allows you to earn more royalties points if you hold 4 of a kind.
+                    image: RipplePunksQuartet.png
+                    markets:
+                        -   name: xMart
+                            url: https://xmart.art/collections/hasmints/ripplepunksquartet/browse-all
+                        -   name: xrp.cafe
+                            url: https://xrp.cafe/collection/ripplepunksquartet
+                        -   name: onXRP
+                            url: https://nft.onxrp.com/collection/ripplepunks-quartet
+                        -   name: Website
+                            url: https://ripplepunks.com
+                            icon: website.svg
+            solana:
+                -   name: SOLpepens
+                    description: SOLpepens is a collaboration collection between Loren and Luc, inspired by the Opepen schematics from Jack Butcher.
+                    image: SOLpepens.png
+                    markets:
+                        -   name: Website
+                            url: https://solpepens.familynfts.nl
+                            icon: website.svg
+                        -   name: LaunchMyNFT
+                            url: https://launchmynft.io/sol/54
+                            description: Currently minting for SOL 0.05
+
