@@ -3,11 +3,18 @@ portfolio:
     path: /
     controller: App\Controller\PortfolioController::index
     requirements:
-        subdomain: luc|diana|sara|luca|elisa
+        subdomain: luc|diana
         domain: local|com
 
 homepage:
     host: 'hasmints.%ext%'
+    path: /
+    controller: App\Controller\HomeController::index
+    defaults:
+        template: default/homepage.html.twig
+
+homepage_www:
+    host: 'www.hasmints.%ext%'
     path: /
     controller: App\Controller\HomeController::index
     defaults:
