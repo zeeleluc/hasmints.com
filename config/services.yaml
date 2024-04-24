@@ -21,3 +21,6 @@ services:
 
 parameters:
     ext: '%env(DOMAIN_EXT)%'
+    portfolios:
+        - luc
+        - diana

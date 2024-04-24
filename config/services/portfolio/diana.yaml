@@ -1,0 +1,19 @@
+parameters:
+    portfolio_diana:
+        bio: Hi, I'm the mom of Luca (from Looney Luca), and together with my son, we created this funny collection about the life of Luca.
+        socials:
+            -   name: Instagram
+                url: https://www.instagram.com/dianavanoosterbosch/
+        chains:
+            ethereum:
+                -   name: Looney Luca
+                    description: The Looney Luca collection tells a story based on our real-life son, Luca. When you browse through the illustrations, you can actually sort of get to know him a little bit. Facts about his ancestry, where he lives, his family, what he loves, his hobbies, and traits of Luca are incorporated into the drawings. Of course, some traits are fictionalized or dramatized a bit.
+                    image: LooneyLuca.png
+                    markets:
+                        -   name: Website
+                            url: https://looneyluca.familynfts.nl
+                            icon: website.svg
+                        -   name: OpenSea
+                            url: https://opensea.io/collection/looneyluca/overview
+                            icon: opensea.svg
+                            description: Currently minting for ETH 0.001

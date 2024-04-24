@@ -302,7 +302,7 @@ body#homepage .page-header h2 {
     background-position-x: 10%, 90%, 50%;
   }
   body#homepage .page-header h2 {
-    margin-top: 100px;
+    margin-top: 5px;
   }
 }
 
@@ -342,6 +342,9 @@ body#homepage .page-header a.language-selector-dropdown-button:hover {
 body#homepage .page-header a.language-selector-dropdown-button .current-language {
   display: inline-flex;
   margin-inline: 5px 10px;
+}
+body#homepage .container-mints {
+  background-color: #adc9db;
 }
 body#homepage .jumbotron {
   display: flex;
