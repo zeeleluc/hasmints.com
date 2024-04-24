@@ -20,9 +20,9 @@
             <div class="col-sm justify-content-center text-center">
                 <h3 class="text-center my-2">Who Has Mints ?!</h3>
                 <div class="pt-3 pb-3">
-                    {% for portfolioName, portfolioUrl in portfolioUrls %}
-                        <a href="{{ portfolioUrl }}" class="btn btn-lg btn-primary">
-                            {{ portfolioName }}.hasmints.com
+                    {% for portfolio_name, portfolio_url in portfolio_urls %}
+                        <a href="{{ portfolio_url }}" class="btn btn-lg btn-primary">
+                            {{ portfolio_name }}.hasmints.com
                         </a>
                     {% endfor %}
                 </div>

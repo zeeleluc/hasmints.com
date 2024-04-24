@@ -21,6 +21,7 @@ class PortfolioController extends AbstractController
         return $this->render('portfolio/index.html.twig', [
             'portfolio_name' => $subdomain,
             'portfolio' => $portfolioService->get($subdomain),
+            'portfolio_urls' => $portfolioService->urls($subdomain),
         ]);
     }
 }
