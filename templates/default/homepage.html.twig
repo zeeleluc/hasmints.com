@@ -157,6 +157,26 @@
                     <p>We specialize in <strong>PHP</strong>, crafting top-notch web solutions using frameworks like Laravel, Laminas, and Symfony. Starting April 2024, we're embracing transparency and collaboration by making all our projects open source.</p>
                     <p>Why open source? We believe in <strong>community-driven</strong> development, fostering innovation and positive change in the tech landscape. Join us on this journey of continuous improvement!</p>
                     <p>Explore our open-source projects and discover how we can shape the future together. Plus, we're now diving into <strong>Web3</strong> and <strong>NFT</strong> projects. Let's explore the possibilities and shape the digital economy together.</p>
+                    <hr />
+                    <div class="my-4">
+                        Last commit done on
+                        <a target="_blank" href="{{ repositories[0].lastCommitUrl }}">
+                            {{ repositories[0].lastCommitDone }}
+                        </a> (UTC)
+                        for repository
+                        <strong>
+                            <a target="_blank" href="{{ repositories[0].url }}">
+                                {{ repositories[0].name }}
+                            </a>
+                        </strong>
+                        <br />
+                        <em>
+                            "{{ repositories[0].lastCommitMessage }}"
+                        </em>
+                    </div>
+                    <a href="/opensource" class="btn btn-primary btn-lg my-4">
+                        Open Source Code
+                    </a>
                 </div>
             </div>
         </div>
