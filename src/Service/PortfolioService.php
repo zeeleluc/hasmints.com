@@ -1,9 +1,8 @@
 <?php
 namespace App\Service;
 
-use App\Parser\PortfolioParser;
+use App\Parser\Portfolio\PortfolioParser;
 use Symfony\Component\DependencyInjection\ParameterBag\ParameterBagInterface;
-use Symfony\Component\Routing\Generator\UrlGenerator;
 use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 
 class PortfolioService

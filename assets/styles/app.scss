@@ -48,6 +48,10 @@ body {
 
 /* Basic styles
    ------------------------------------------------------------------------- */
+a {
+  color: $has-mints-green;
+}
+
 h1, .h1 {
   font-family: 'BM Hanna', sans-serif;
   font-size: var(--font-heading);

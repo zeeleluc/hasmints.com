@@ -1,10 +1,10 @@
 <?php
-namespace App\Parser;
+namespace App\Parser\Portfolio;
 
-use App\Parser\Stubs\PortfolioBioStub;
-use App\Parser\Stubs\PortfolioChainStub;
-use App\Parser\Stubs\PortfolioCollectionStub;
-use App\Parser\Stubs\PortfolioLinkStub;
+use App\Parser\Portfolio\Stubs\PortfolioBioStub;
+use App\Parser\Portfolio\Stubs\PortfolioChainStub;
+use App\Parser\Portfolio\Stubs\PortfolioCollectionStub;
+use App\Parser\Portfolio\Stubs\PortfolioLinkStub;
 use App\Traits\EasyMake;
 use ArrayHelpers\Arr;
 

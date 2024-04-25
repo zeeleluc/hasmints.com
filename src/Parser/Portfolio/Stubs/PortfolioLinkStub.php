@@ -1,5 +1,5 @@
 <?php
-namespace App\Parser\Stubs;
+namespace App\Parser\Portfolio\Stubs;
 
 use App\Traits\EasyMake;
 

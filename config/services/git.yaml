@@ -1,0 +1,8 @@
+parameters:
+    git:
+        owner: zeeleluc
+        repositories:
+            -   cryptopunks-pixels
+            -   xrplmarketplace
+            -   hasmints.com
+            -   xrplrichlists

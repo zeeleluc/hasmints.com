@@ -1,5 +1,6 @@
 imports:
     - { resource : services/portfolio/ }
+    - { resource : services/ }
 
 services:
     _defaults:

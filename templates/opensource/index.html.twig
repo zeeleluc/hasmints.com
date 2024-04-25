@@ -1,0 +1,53 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Open Source Code{% endblock %}
+
+{% block body_id 'opensource' %}
+
+{% block body %}
+<div class="row">
+    <div class="container">
+        <div class="row">
+            <div class="col col-12">
+                <h1>We Work Open Source</h1>
+                <h2 class="mb-5">Team BaseMints: Your PHP Experts</h2>
+            </div>
+            <div class="col col-12 col-md-4">
+                {% for repository in repositories %}
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <strong>
+                                <a target="_blank" href="{{ repository.url }}">
+                                    {{ repository.name }}
+                                </a>
+                            </strong>
+                            <small>({{ repository.totalCommits }} commits)</small>
+                        </div>
+                        <div class="card-body">
+                            <strong>
+                                Last commit
+                            </strong>
+                            <br />
+                            <em>
+                                {{ repository.lastCommitMessage }}
+                            </em>
+                            <br />
+                            <a target="_blank" href="{{ repository.lastCommitUrl }}">
+                                {{ repository.lastCommitDone }}
+                            </a>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="col-12 col-md-8">
+                <p>At Team BaseMints, we pride ourselves on our expertise in PHP and our ability to create high-quality web-related software. Whether it's using popular frameworks like Laravel, Laminas, Symfony, or even crafting our own frameworks, our team is dedicated to delivering top-notch solutions tailored to our clients' needs.</p>
+                <p>But our commitment to excellence doesn't stop there. Starting from April 2024 and moving forward, we're taking a bold step towards transparency and collaboration by making all the features and websites we create open source.</p>
+                <p>Why open source? Because we believe in the power of community-driven development. By sharing our code with the world, we're not only contributing to the collective knowledge base but also inviting others to build upon and improve our work.</p>
+                <p>This decision reflects our values of transparency, innovation, and a commitment to the greater good of the tech community. We're excited to see how our open-source projects will inspire creativity, foster collaboration, and drive positive change in the digital landscape.</p>
+                <p>So whether you're a fellow developer looking to learn, a business seeking customizable solutions, or simply curious about what we do, we invite you to explore our open-source projects and join us on this journey of continuous improvement and innovation. Together, we can create a brighter future for technology, one line of code at a time.</p>
+                <p>Additionally, we're now taking on new assignments for Web3 and NFT projects. Whether you're looking to create a minting website for your NFT collection, integrate blockchain functionality into your existing platform, or explore any other feature related to Web3 and NFTs, we've got you covered. Let's explore the possibilities together and shape the future of the digital economy.</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

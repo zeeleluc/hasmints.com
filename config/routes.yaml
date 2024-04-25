@@ -6,6 +6,10 @@ portfolio:
         subdomain: luc|diana
         domain: local|com
 
+opensource:
+    path: /opensource
+    controller: App\Controller\OpenSourceController::index
+
 homepage:
     host: 'hasmints.%ext%'
     path: /
