@@ -274,6 +274,7 @@ body#homepage {
   background-size: 200px, 200px, 175px;
   background-position: top left, top right, bottom center;
   background-position-y: 100px, 100px, 100%;
+  padding-bottom: 300px;
 }
 
 body#homepage .page-header h2 {
@@ -309,6 +310,100 @@ body#homepage .page-header h2 {
     margin-top: 5px;
   }
 }
+
+body#homepage .container-opensource {
+  background-color: white;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 50px 35px;
+
+  h3 {
+    font-family: 'BM Hanna', sans-serif;
+    font-size: 46px;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 26px;
+    strong {
+      font-family: 'BM Hanna', sans-serif;
+      font-size: 30px;
+    }
+  }
+}
+
+body#homepage .container-ripplepunks,
+body#homepage .container-looneyluca,
+body#homepage .container-cryptopunks,
+body#homepage .container-basealiens {
+  p {
+    font-size: 24px;
+    strong {
+      font-family: 'BM Hanna', sans-serif;
+      font-size: 30px;
+    }
+  }
+  a {
+    font-family: 'BM Hanna', sans-serif;
+    border: none;
+    font-size: 26px;
+    padding: 10px 20px 5px 20px;
+    margin-bottom: 10px;
+
+    i {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+body#homepage .container-ripplepunks {
+  background-color: #3BA1E1;
+  p {
+    color: #092536;
+  }
+  a {
+    background-color: #0A344D;
+  }
+}
+
+body#homepage .container-looneyluca {
+  background-color: #F27D30;
+  p {
+    color: #ffefe2;
+  }
+  a.btn-primary {
+    background-color: #ff9f61;
+  }
+  a.btn-secondary {
+    background-color: #ffb488;
+  }
+}
+
+body#homepage .container-cryptopunks {
+  background-color: #414141;
+  p {
+    color: #eeeeee;
+  }
+  a {
+    background-color: #111111;
+  }
+}
+
+body#homepage .container-basealiens {
+  background-color: #3150a1;
+  p {
+    color: #aec2f2;
+  }
+  a.btn-primary {
+    background-color: #3d65ce;
+  }
+  a.btn-secondary {
+    background-color: #6c91f1;
+  }
+}
+
 
 body#homepage .page-header {
   justify-content: space-between;
