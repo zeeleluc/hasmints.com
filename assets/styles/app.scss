@@ -66,6 +66,10 @@ h3, .h3 {
   font-size: var(--font-subtitle);
 }
 
+h4, .h4 {
+  font-size: 20px;
+}
+
 p, ul, ol {
   font-size: var(--font-default);
   margin-bottom: 1.5em
@@ -308,6 +312,23 @@ body#homepage .page-header h2 {
   }
   body#homepage .page-header h2 {
     margin-top: 5px;
+  }
+}
+
+body#homepage .container-who-mints {
+  h3 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 27px;
+  }
+  .btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  strong {
+    font-family: 'BM Hanna', sans-serif;
+    font-size: 26px;
   }
 }
 
