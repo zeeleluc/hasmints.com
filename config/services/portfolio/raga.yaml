@@ -1,0 +1,17 @@
+parameters:
+    portfolio_raga:
+        bio: "Hello, I'm Raga. Drawing inspiration from my late grandfather, an esteemed artist, and Moka, my cherished first dog, I founded Rising Syndicat. Recognizing the potential of NFTs in bridging the digital and physical realms, Rising Syndicat serves as a platform where real-life assets and NFTs converge. It operates as a multifaceted initiative encompassing various projects, each curated to intersect in meaningful ways, thereby fostering a cohesive ecosystem."
+        socials:
+            -   name: X
+                url: https://twitter.com/prdtcn
+        chains:
+            xrpl:
+                -   name: "Moka: On a Handestal"
+                    description: Moka happily immortalized on the XRPL forever. Perks for HODLers.
+                    image: Moka.webp
+                    markets:
+                        -   name: xrp.cafe
+                            url: https://xrp.cafe/collection/moka
+                    socials:
+                        -   name: X
+                            url: https://twitter.com/RisingSyndicat

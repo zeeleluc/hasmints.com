@@ -3,7 +3,7 @@ portfolio:
     path: /
     controller: App\Controller\PortfolioController::index
     requirements:
-        subdomain: luc|diana
+        subdomain: luc|diana|raga
         domain: local|com
 
 opensource:
