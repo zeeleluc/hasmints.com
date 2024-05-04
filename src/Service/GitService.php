@@ -47,7 +47,7 @@ class GitService
                 $commits = $this->getCommitsForRepository($repository['name']);
                 $lastCommit = $commits[0];
 
-                $repositoryStub->totalCommits = count($commits);
+                $repositoryStub->totalCommits = count($commits); // @todo
                 $repositoryStub->lastCommitDone = Carbon::parse($lastCommit['commit']['committer']['date']);
                 $repositoryStub->lastCommitMessage = $lastCommit['commit']['message'];
                 $repositoryStub->lastCommitUrl = $lastCommit['html_url'];

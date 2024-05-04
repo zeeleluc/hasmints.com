@@ -11,6 +11,11 @@ opensource:
     path: /opensource
     controller: App\Controller\OpenSourceController::index
 
+team:
+    host: 'hasmints.%ext%'
+    path: /team
+    controller: App\Controller\TeamController::index
+
 homepage:
     host: 'hasmints.%ext%'
     path: /
