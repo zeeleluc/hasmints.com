@@ -354,6 +354,29 @@ body#homepage .container-opensource {
   }
 }
 
+body#homepage .container-web3-projects {
+  background-color: white;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 50px 35px;
+
+  h3 {
+    font-family: 'BM Hanna', sans-serif;
+    font-size: 46px;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 26px;
+    strong {
+      font-family: 'BM Hanna', sans-serif;
+      font-size: 30px;
+    }
+  }
+}
+
+body#homepage .container-richlists,
 body#homepage .container-ripplepunks,
 body#homepage .container-looneyluca,
 body#homepage .container-cryptopunks,
@@ -376,6 +399,19 @@ body#homepage .container-basealiens {
       margin: 0;
       padding: 0;
     }
+  }
+}
+
+body#homepage .container-richlists {
+  background-color: #222222;
+  p {
+    color: #ffffff;
+  }
+  strong {
+    color: #ffff11;
+  }
+  a.btn-primary {
+    background-color: #0C6DFD;
   }
 }
 
@@ -463,7 +499,7 @@ body#homepage .page-header a.language-selector-dropdown-button .current-language
   display: inline-flex;
   margin-inline: 5px 10px;
 }
-body#homepage .container-mints {
+body#homepage .container-darker-blue {
   background-color: #adc9db;
 }
 body#homepage .jumbotron {
