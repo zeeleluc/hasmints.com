@@ -470,7 +470,7 @@ body#homepage .page-header {
 }
 body#homepage .page-header h1 {
   font-size: 82px;
-  margin: 40px 0;
+  margin: 40px 0 0 0;
 }
 body#homepage .page-header h2 {
   font-size: 34px;
@@ -498,6 +498,20 @@ body#homepage .page-header a.language-selector-dropdown-button:hover {
 body#homepage .page-header a.language-selector-dropdown-button .current-language {
   display: inline-flex;
   margin-inline: 5px 10px;
+}
+body#homepage .page-header .socials {
+  margin-top: -20px;
+  margin-bottom: 40px;
+  color: #7192a7;
+  font-family: 'BM Hanna', sans-serif;
+  font-size: 26px;
+  a.btn {
+    padding: 4px 0 0 0;
+    color: #7192a7;
+    background: none;
+    border: none;
+    font-size: 26px;
+  }
 }
 body#homepage .container-darker-blue {
   background-color: #adc9db;
