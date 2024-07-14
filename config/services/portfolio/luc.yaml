@@ -119,15 +119,3 @@ parameters:
                         -   name: Website
                             url: https://ripplepunks.com
                             icon: website.svg
-            solana:
-                -   name: SOLpepens
-                    description: SOLpepens is a collaboration collection between Loren and Luc, inspired by the Opepen schematics from Jack Butcher.
-                    image: SOLpepens.png
-                    markets:
-                        -   name: Website
-                            url: https://solpepens.familynfts.nl
-                            icon: website.svg
-                        -   name: LaunchMyNFT
-                            url: https://launchmynft.io/sol/54
-                            description: Currently minting for SOL 0.05
-
