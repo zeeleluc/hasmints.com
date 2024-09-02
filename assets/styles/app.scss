@@ -536,33 +536,10 @@ body#homepage .jumbotron P {
   font-weight: 400
 }
 
-/* 'Portfolio'
-   ------------------------------------------------------------------------- */
-body#portfolio {
 
-  .card, .card-header, .card-body, .card-footer {
-    border: none;
-    border-radius: 0;
-  }
 
-  .row {
-    &.row-portfolio {
-      padding: 0 0 30px 0;
-    }
-    &.row-portfolio-base {
-      background-color: #9BB0C1;
-    }
-    &.row-portfolio-ethereum {
-      background-color: #BACD92;
-    }
-    &.row-portfolio-xrpl {
-      background-color: #EADFB4;
-    }
-    &.row-portfolio-solana {
-      background-color: #E1AFD1;
-    }
-  }
-}
+
+
 .row {
   &.row-portfolio-chain {
 

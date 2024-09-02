@@ -1,11 +1,3 @@
-portfolio:
-    host: '{subdomain}.hasmints.{domain}'
-    path: /
-    controller: App\Controller\PortfolioController::index
-    requirements:
-        subdomain: luc|diana|raga
-        domain: local|com
-
 opensource:
     host: 'hasmints.%ext%'
     path: /opensource

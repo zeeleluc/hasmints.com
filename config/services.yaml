@@ -1,5 +1,4 @@
 imports:
-    - { resource : services/portfolio/ }
     - { resource : services/ }
 
 services:
@@ -22,7 +21,3 @@ services:
 
 parameters:
     ext: '%env(DOMAIN_EXT)%'
-    portfolios:
-        - luc
-        - diana
-        - raga
