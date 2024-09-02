@@ -15,9 +15,5 @@ services:
             - '../src/Entity/'
             - '../src/Kernel.php'
 
-    App\Service\PortfolioService:
-        arguments:
-            $parameterBag: '@parameter_bag'
-
 parameters:
     ext: '%env(DOMAIN_EXT)%'
