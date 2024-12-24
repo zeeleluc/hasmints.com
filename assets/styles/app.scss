@@ -310,6 +310,9 @@ body#homepage .page-header h2 {
     background-position: top left, top right, bottom center;
     background-position-x: 10%, 90%, 50%;
   }
+  body#homepage .page-header {
+    height: 240px !important;
+  }
   body#homepage .page-header h2 {
     margin-top: 5px;
   }
@@ -478,7 +481,7 @@ body#homepage .page-header {
   padding-bottom: 9.5px;
   margin: 0 0 30px;
   text-align: center;
-  height: 240px;
+  height: 300px;
 }
 body#homepage .page-header h1 {
   font-size: 82px;
