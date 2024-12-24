@@ -379,6 +379,7 @@ body#homepage .container-web3-projects {
 body#homepage .container-richlists,
 body#homepage .container-ripplepunks,
 body#homepage .container-looneyluca,
+body#homepage .container-nobased,
 body#homepage .container-cryptopunks,
 body#homepage .container-basealiens {
   p {
@@ -425,6 +426,16 @@ body#homepage .container-ripplepunks {
   }
 }
 
+body#homepage .container-nobased {
+  background-color: #111111;
+  p {
+    color: #e2f3ff;
+  }
+  a {
+    background-color: #333333;
+  }
+}
+
 body#homepage .container-looneyluca {
   background-color: #F27D30;
   p {
@@ -467,6 +478,7 @@ body#homepage .page-header {
   padding-bottom: 9.5px;
   margin: 0 0 30px;
   text-align: center;
+  height: 240px;
 }
 body#homepage .page-header h1 {
   font-size: 82px;
