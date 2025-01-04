@@ -384,6 +384,7 @@ body#homepage .container-ripplepunks,
 body#homepage .container-looneyluca,
 body#homepage .container-nobased,
 body#homepage .container-cryptopunks,
+body#homepage .container-pigpunks,
 body#homepage .container-basealiens {
   p {
     font-size: 24px;
@@ -403,6 +404,20 @@ body#homepage .container-basealiens {
       margin: 0;
       padding: 0;
     }
+  }
+}
+
+body#homepage .container-pigpunks {
+  background-color: #ffc5e8;
+  p {
+    color: #23081a;
+  }
+  strong {
+    color: #000000;
+  }
+  a.btn-primary {
+    background-color: #ffdebe;
+    color: #000000;
   }
 }
 
