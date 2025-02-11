@@ -379,7 +379,7 @@ body#homepage .container-web3-projects {
   }
 }
 
-body#homepage .container-richlists,
+body#homepage .container-nextgen,
 body#homepage .container-ripplepunks,
 body#homepage .container-looneyluca,
 body#homepage .container-nobased,
@@ -445,16 +445,23 @@ body#homepage .container-freemints {
   }
 }
 
-body#homepage .container-richlists {
-  background-color: #222222;
+body#homepage .container-nextgen {
+  background-color: #ffffff;
+  h1, h2 {
+    text-align: center;
+  }
+  h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
   p {
-    color: #ffffff;
+    color: #333333;
   }
   strong {
-    color: #ffff11;
+    color: #000000;
   }
   a.btn-primary {
-    background-color: #0C6DFD;
+    background-color: #333333;
   }
 }
 
